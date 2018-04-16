@@ -2,6 +2,7 @@
 include "vendor/autoload.php";
 use ElephantIO\Client;
 use ElephantIO\Engine\SocketIO\Version2X;
+
     if($_SERVER['REQUEST_METHOD'] === 'POST'){
         $db = new PDO('mysql:host=localhost;dbname=vote_system', 'root', '');
         $form_data = [
